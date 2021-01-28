@@ -41,11 +41,11 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || ''}</h3>
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'Complex front-end game using a spaceman concept. A user enters a word that will be guessed during the game. The word is then hidden and represented by blank spaces. The goal is to guess a planet in the solar system until the game is won with 10 attempts. '}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -55,7 +55,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        Demo
                       </a>
 
                       {repo && (
@@ -65,7 +65,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={repo}
                         >
-                          Source Code
+                          Code
                         </a>
                       )}
                     </div>
