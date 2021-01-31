@@ -43,11 +43,11 @@ const About = () => {
                 </p> */}
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I am a software engineer that has skills in both the back-end of web applications and the front-end. My previous roles as both  leader and follower have taught me how to work in a team environment to complete a common goal.'}
+                    'I am a software engineer that has skills in both the back-end of web applications as well as the front-end. My previous roles as both  leader and follower have taught me how to fluently work in a team environment to complete a common goal.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Communication is key when working with a group and I take pride in being a reliable active member of a team. I have a history of team success, strong leadership, and am a very highly motivated worker who is eager to help your company!'}
+                    'Communication is key when working with a group and I take pride in being a reliable active member of a team. I have a history of team success, strong leadership, and value myself as an overall essential worker who is eager to help expand your company!'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree ||
